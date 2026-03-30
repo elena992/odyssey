@@ -4,6 +4,9 @@
 
   <img width="1680" height="853" alt="odyssey" src="https://github.com/user-attachments/assets/eac6a723-cd0b-4187-9329-510939581412" />
 
+  <img width="1680" height="854" alt="my_favourites" src="https://github.com/user-attachments/assets/885723c1-c05e-4196-a554-0fb0903a4796" />
+
+
   ## Features
   - Curated Destinations: Browse through a handpicked selection of world-class travel spots.
   - Smart Search: Uncover your next escape or discover hidden gems by filtering by country or city.
