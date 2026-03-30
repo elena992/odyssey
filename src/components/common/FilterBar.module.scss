@@ -1,0 +1,31 @@
+.filterBar {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+
+  .pill {
+    padding: 0.6rem 1.5rem;
+    border-radius: 50px;
+    border: 1px solid #e0e0e0;
+    background: white;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #555;
+    transition: all 0.3s ease;
+
+    &:hover {
+      border-color: #0070f3;
+      color: #0070f3;
+    }
+
+    &.active {
+      background: #0070f3;
+      color: white;
+      border-color: #0070f3;
+      box-shadow: 0 4px 10px rgba(0, 112, 243, 0.2);
+    }
+  }
+}

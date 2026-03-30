@@ -1,0 +1,60 @@
+.main {
+  padding: 4rem 2rem;
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  box-sizing: border-box;
+
+  .hero {
+    text-align: center;
+    margin-bottom: 4rem;
+    width: 100%;
+
+    h1 {
+      font-size: clamp(2rem, 5vw, 3.5rem);
+      margin-bottom: 1rem;
+      color: #171717;
+    }
+
+    p {
+      font-size: 1.25rem;
+      color: #666;
+    }
+  }
+
+  .errorAlert {
+    grid-column: 1 / -1;
+    background: #fff2f0;
+    border: 1px solid #ffccc7;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    color: #ff4d4f;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 500;
+  }
+
+  .grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2.5rem;
+    align-items: stretch;
+
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: 1024px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .noResults {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 3rem;
+    color: #888;
+    font-size: 1.1rem;
+  }
+}
